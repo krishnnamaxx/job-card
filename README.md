@@ -29,7 +29,7 @@ This project was created to practice **props drilling**, dynamic rendering, and 
 
 ## 📸 Preview
 
-![Preview](./assets/preview.png)
+![Preview](src/assets/preview.png)
 
 ---
 
