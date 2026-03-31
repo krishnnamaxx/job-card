@@ -31,7 +31,6 @@ This project was created to practice **props drilling**, dynamic rendering, and 
 
 ![Preview](./assets/preview.png)
 
-
 ---
 
 ## ⚙️ How It Works
