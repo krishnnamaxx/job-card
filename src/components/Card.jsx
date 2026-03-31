@@ -1,26 +1,26 @@
 
 import {Bookmark} from 'lucide-react'
-const Card = () => {
+const Card =({job}) => {
   return (
     <div>
       <div className='card'>
       <div className='top'>
-        <img src="https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg" alt="" />
-        <button >Save <Bookmark  size={10}/></button>
+        <img src={job.logo} alt="" />
+        <button >Save <Bookmark  size={12}/></button>
       </div>
       <div className='center'>
-<h3>Amazon <span>5 days ago</span></h3>
-<h2>Senoir UI/UX Designer</h2>
+<h3>{job.company} <span>{job.posted}</span></h3>
+<h2>{job.role}</h2>
 <div>
-  <h4>Part Time </h4>
-  <h4> Senior Level</h4>
+  <h4>{job.type}</h4>
+  <h4>{job.level}</h4>
 </div>
       </div>
 
 <div className='bottom'>
   <div>
-    <h3>$120/hr</h3>
-    <p>Mumbai, India</p>
+    <h3>{job.salary}</h3>
+    <p>{job.location}</p>
   </div>
   <button>Apply Now</button>
       </div>

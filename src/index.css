@@ -103,6 +103,7 @@ body {
   border-radius: 5px;
   font-size: 12px;
   column-width: 600;
+  cursor:pointer;
 }
 
 .bottom h3{
